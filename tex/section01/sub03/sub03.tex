@@ -1,0 +1,17 @@
+% !TeX root = ../section01.tex
+\documentclass[../../../main.tex]{subfiles}
+\begin{document}
+
+\subsection{Adding big chunks of code}
+Sometimes you may need to add big chunks of code like large tables or tikz graphs. In that case it may be useful to separate them into other \LaTeX files and place them under an \textit{assets} folder. As they are not expected to be compiled separately, an include statement will suffice.
+
+For example, this \textit{pgfplots} plot that i found on the internet.
+
+\input{sub03/assets/plot1}
+
+Or this table:
+
+\input{sub03/assets/table1}
+
+
+\end{document}
